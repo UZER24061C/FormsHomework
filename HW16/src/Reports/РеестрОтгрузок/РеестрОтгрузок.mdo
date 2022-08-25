@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7035aeb5-071e-484c-a7e7-f9cf7132ce10">
+  <producedTypes>
+    <objectType typeId="55b2dc08-fd5c-427c-ba31-75ba0df55481" valueTypeId="a6804c53-4cfb-4f66-8346-6f60872da194"/>
+    <managerType typeId="c1cf7d2e-2e43-4fac-b9b7-5ba982b56e5c" valueTypeId="4a89a778-4d32-4b5e-b773-ad7759dce806"/>
+  </producedTypes>
+  <name>РеестрОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр отгрузок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.РеестрОтгрузок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e7beb173-c3a4-4aa3-8455-a4d1cf0764f0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

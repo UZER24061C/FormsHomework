@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60a34f6e-7482-4520-aec8-ee69c894491b">
+  <producedTypes>
+    <objectType typeId="1e51d637-9d4e-42ad-83b0-cca68cf50240" valueTypeId="fde9edcb-093f-4991-a6f2-dda2c3e24649"/>
+    <managerType typeId="9f608aa6-a08a-45fc-a011-67794917fe15" valueTypeId="78764499-2821-4598-b3d1-0ceb9f0ef0fe"/>
+  </producedTypes>
+  <name>КонсольЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗапросов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="95553015-0cd2-41b8-a005-3028d6952643">
+    <name>ИспользоватьАвтосохранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автосохранение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ac40bf2-342d-43de-bf93-506a7f5e0503">
+    <name>ИнтервалАвтосохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал автосохранения (с)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="febded5c-803d-429b-960c-aefa56a6148c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e291ac96-9767-4ef0-a528-e3ff3a2b3b78">
+    <name>ФормаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9cdc1f26-3fd9-45c4-9ad8-85fd82592ee6">
+    <name>ФормаВложеннойТаблицы</name>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Форма вложенной таблицы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f88decf-506e-4dc4-a0b6-ea9a0b735e56">
+    <name>ФормаВыбораСтрокиДереваЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора строки дерева запросов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ce25efb-3af0-428a-96a6-d64929e56eb0">
+    <name>ФормаНастройкиАвтосохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки автосохранения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

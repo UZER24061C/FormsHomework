@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cc29f4b-683c-4343-8c05-d92f15753680">
+  <name>НоменклатураИСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура и склад</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Склад</picture>
+  </picture>
+  <subsystems>ТоварыИУслуги</subsystems>
+  <subsystems>Склад</subsystems>
+</mdclass:Subsystem>

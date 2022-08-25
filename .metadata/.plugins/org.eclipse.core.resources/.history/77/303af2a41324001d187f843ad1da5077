@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2edd5d72-8086-4dc0-b27d-5d0517c15db6">
+  <name>ДоговораВидимость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договора видимость</value>
+  </synonym>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

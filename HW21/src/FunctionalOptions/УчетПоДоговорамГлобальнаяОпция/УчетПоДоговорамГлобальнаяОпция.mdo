@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2edd5d72-8086-4dc0-b27d-5d0517c15db6">
+  <name>УчетПоДоговорамГлобальнаяОпция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет по договорам глобальная опция</value>
+  </synonym>
+  <location>Constant.УчетПоДоговорам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Контрагенты.Attribute.ВестиУчетПоДоговорам</content>
+  <content>Document.ПоступлениеТоваровУслуг.Attribute.Договор</content>
+  <content>Document.СчетНаОплатуПокупателю.Attribute.Договор</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.Договор</content>
+</mdclass:FunctionalOption>

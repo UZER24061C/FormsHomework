@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="com._1c.g5.v8.dt.qw.ui.isSourcesTreeSorted" value="false"/>
+	<section name="com._1c.g5.v8.dt.qw.ui.QueryWizard">
+		<item key="width" value="1100"/>
+		<item key="heigth" value="800"/>
+		<item key="position_x" value="290"/>
+		<item key="position_y" value="105"/>
+	</section>
+	<section name="com._1c.g5.v8.dt.qw.ui.dialogs.QueryExpressionEditDialog">
+		<item key="width" value="600"/>
+		<item key="heigth" value="700"/>
+		<item key="position_x" value="540"/>
+		<item key="position_y" value="155"/>
+	</section>
+	<section name="com._1c.g5.v8.dt.qw.ui.dialogs.QueryTextEditDialog">
+		<item key="width" value="600"/>
+		<item key="heigth" value="500"/>
+		<item key="position_x" value="540"/>
+		<item key="position_y" value="155"/>
+	</section>
+</section>

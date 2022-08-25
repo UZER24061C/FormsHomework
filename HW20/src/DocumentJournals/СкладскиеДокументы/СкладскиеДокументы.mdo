@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc197259-71dd-4505-a352-e5158a96c351">
+  <producedTypes>
+    <selectionType typeId="36bf3a81-11cb-4e18-8a87-3b65b22f67f1" valueTypeId="b2b2ec60-de45-43d4-bd5a-c6b713eada43"/>
+    <listType typeId="1fe31ca6-7b0c-4b45-9c2d-5c8edf5c08f7" valueTypeId="1cc064fb-e6b2-48f8-8a6b-30f467ed1f74"/>
+    <managerType typeId="d74c0146-b25a-44f9-b3ce-eda8269c72d7" valueTypeId="f2807fe1-d678-4043-a62c-9bb389b14290"/>
+  </producedTypes>
+  <name>СкладскиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складские документы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровУслуг</registeredDocuments>
+  <columns uuid="7f1bf5dd-09dc-4d9f-a28b-8d811453896f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.РеализацияТоваровУслуг.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеТоваровУслуг.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="5bc21992-9f9b-4cc8-bd86-57470c20f7ba">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <references>Document.РеализацияТоваровУслуг.Attribute.Склад</references>
+    <references>Document.ПоступлениеТоваровУслуг.Attribute.Склад</references>
+  </columns>
+  <columns uuid="05bfe3bd-2767-4ad3-a2a8-cb521090fff3">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.РеализацияТоваровУслуг.Attribute.СуммаДокумента</references>
+  </columns>
+  <commands uuid="e3c3621e-e03c-41f3-b92a-54d100fb177b">
+    <name>ЖурналСкладскихДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Складские документы</value>
+    </synonym>
+    <group>CommandGroup.Журналы</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DocumentJournal>

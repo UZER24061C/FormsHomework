@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9b8ec90-a3b1-462e-aa17-3720621449b8">
+  <name>Журналы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журналы</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

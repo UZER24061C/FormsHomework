@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="533256ce-aec0-4d44-9127-2ce789e659cf">
+  <name>ВестиОтгрузкиКонтекст</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести отгрузки контекст</value>
+  </synonym>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

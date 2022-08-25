@@ -1,0 +1,4 @@
+#Infobase binding data of the project
+#Tue Aug 23 18:46:01 MSK 2022
+com._1c.g5.v8.dt.platform.services.core/infobaseBinding/5e255921-8df9-4c1d-a3f7-b9f5fbce79b9=com._1c.g5.v8.dt.platform.services.core.resolvableInstallations.environments\:com._1c.g5.v8.dt.platform.services.core.runtimeType.EnterprisePlatform\=8.3.20
+com._1c.g5.v8.dt.platform.services.core/infobaseBinding/d28cc220-4962-4687-8334-f5e1199dd2dd=com._1c.g5.v8.dt.platform.services.core.resolvableInstallations.environments\:com._1c.g5.v8.dt.platform.services.core.runtimeType.EnterprisePlatform\=8.3.20

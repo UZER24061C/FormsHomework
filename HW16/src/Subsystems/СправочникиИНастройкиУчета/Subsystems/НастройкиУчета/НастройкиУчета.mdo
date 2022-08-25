@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab773d34-8e51-4e26-b917-fbc5aa1980c0">
+  <name>НастройкиУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки учета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.НастройкиПрограммы</content>
+  <content>DataProcessor.НастройкиУчетнойПолитики</content>
+  <content>Catalog.Организации</content>
+  <content>CommonCommand.НастройкаУчетнойПолитики</content>
+  <content>CommonCommand.НастройкаПрограммы</content>
+  <parentSubsystem>Subsystem.СправочникиИНастройкиУчета</parentSubsystem>
+</mdclass:Subsystem>
